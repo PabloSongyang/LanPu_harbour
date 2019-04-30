@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -51,21 +51,13 @@ public class AndroidStatusBar
 
     static AndroidStatusBar()
     {
-<<<<<<< HEAD
-
-=======
->>>>>>> dev
         applyUIStates();
         applyUIColors();
     }
 
     private static void applyUIStates()
-<<<<<<< HEAD
     {
 #if UNITY_ANDROID
-=======
-    {
->>>>>>> dev
         if (Application.platform == RuntimePlatform.Android)
         {
             int newFlagsValue = 0;
@@ -106,26 +98,17 @@ public class AndroidStatusBar
             setSystemUiVisibility(newSystemUiVisibilityValue);
 
         }
-<<<<<<< HEAD
 #endif
-=======
->>>>>>> dev
     }
 
     private static void applyUIColors()
     {
-<<<<<<< HEAD
         #if UNITY_ANDROID
-=======
->>>>>>> dev
         if (Application.platform == RuntimePlatform.Android)
         {
             runOnAndroidUiThread(applyUIColorsAndroidInThread);
         }
-<<<<<<< HEAD
 #endif
-=======
->>>>>>> dev
     }
 
 #if UNITY_ANDROID
