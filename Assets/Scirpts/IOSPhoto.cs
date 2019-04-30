@@ -134,7 +134,11 @@ public class IOSPhoto : MonoBehaviour
         ShowLoad = ShowOrHit._Instance.HttpLoading.gameObject;
         ShowError = ShowOrHit._Instance.Worning.gameObject;
 #if UNITY_IPHONE
+<<<<<<< HEAD
         Initialization();
+=======
+        ios.Initialization();
+>>>>>>> dev
 #endif
     }
 
